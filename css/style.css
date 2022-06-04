@@ -1,0 +1,42 @@
+body {
+    background-color: rgba(128, 128, 128, 0.06);
+}
+
+#clockContainer {
+    height: 40vw;
+    width: 40vw;
+    background: url("../img/clock.png") no-repeat;
+    margin: auto;
+    background-size: 100%;
+    position: relative;
+}
+
+#hourHand, #minuteHand, #secondHand {
+    position: absolute;
+    border-radius: 10px;
+    transform-origin: bottom;
+}
+
+#hourHand {
+    background-color: black;
+    width: 2%;
+    height: 25%;
+    top: 25.4%;
+    left:48.8%;
+}
+
+#minuteHand {
+    background-color: green;
+    width: 1.5%;
+    height: 35%;
+    top: 15.5%;
+    left:49.2%;
+}
+
+#secondHand {
+    background-color: red;
+    width: 1%;
+    height: 45%;
+    top: 5.5%;
+    left:49.5%;
+}
